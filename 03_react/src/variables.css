@@ -7,9 +7,10 @@
     --color-primary: #1a1a1a;
     --color-secondary: #FFFFFF;
     --color-terciary: #3b3b3b;
+    --color-accent: #606060;
 
-    --color-danger: #e33333;;
-    --color-submit: #30BE71;
+    --color-danger: #f01010;;
+    --color-success: #22dd76;
 
     /* FONT-WEIGHT */
 
