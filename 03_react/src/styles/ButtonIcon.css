@@ -1,0 +1,20 @@
+/* Para los botones se suele usar em porque 
+tiene en cuenta el elemento más cercano con 
+font-size, que en este caso es el icono de 
+la lupa */
+
+.buttonIcon {
+    padding: 1em;
+    background-color: var(--color-terciary);
+    border-radius: 12px;
+    border: none;
+    color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonIcon__icon svg {
+    width: var(--fs-base);
+    height: var(--fs-base);
+}

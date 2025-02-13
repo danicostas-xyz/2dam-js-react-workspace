@@ -1,0 +1,20 @@
+.noteItem__title {
+    color: var(--color-primary);
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-md);
+}
+
+.noteItem__text {
+    color: var(--color-primary);
+    font-weight: var(--fw-light);
+    font-size: var(--fs-base);
+}
+
+.noteItem {
+    background-color: #e33333;
+    padding: 1em 1em;
+    border-radius: 16px;
+    word-wrap: break-word;
+
+}
+

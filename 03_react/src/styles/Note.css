@@ -1,0 +1,41 @@
+/* Para los botones se suele usar em porque 
+tiene en cuenta el elemento más cercano con 
+font-size, que en este caso es el icono de 
+la lupa */
+
+.note__title {
+    font-weight: var(--fw-semibold);
+    color: var(--color-secondary);
+}
+
+.note__groupIcon {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.note__container{
+    margin-top: var(--spacing-md);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.boton {
+    display: flex;
+    background-color: var(--color-primary);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    padding: .5em;
+    position: fixed;
+    bottom: var(--spacing-xl);
+    right: var(--spacing-xl);
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.boton svg {
+    height: var(--fs-xl);
+    width: var(--fs-xl);
+    color: var(--color-secondary);
+}

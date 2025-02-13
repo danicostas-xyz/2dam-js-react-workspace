@@ -1,0 +1,23 @@
+@import url(variables.css);
+
+/*
+
+En el index.css 
+
+- reset
+- imports globales (variables)
+- background-color
+- fuentes
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-primary);
+  font-family: var(--font-primary);
+}

@@ -1,0 +1,10 @@
+/* Para los botones se suele usar em porque 
+tiene en cuenta el elemento más cercano con 
+font-size, que en este caso es el icono de 
+la lupa */
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

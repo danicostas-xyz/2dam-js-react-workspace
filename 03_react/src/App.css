@@ -1,0 +1,8 @@
+/*
+En app.css podemos poner estilo global, el que no se pone en index.css
+App servirá como enroutador
+*/
+
+.app {
+    margin: var(--spacing-xl) var(--spacing-lg);
+}
