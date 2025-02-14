@@ -32,9 +32,11 @@
     color: var(--color-secondary);
     font-size: var(--fs-base);
     font-weight: var(--fw-thin);
+    text-align: center;
 }
 
 .modal__button {
+    color: var(--color-secondary);
     border: none;
     padding: .75em 1em;
     font-family: var(--font-primary);

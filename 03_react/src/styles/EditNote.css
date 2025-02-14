@@ -1,0 +1,67 @@
+.editNote__groupIcon {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.editNote__inputWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing-xl);
+}
+
+.editNote__input {
+    font-family: var(--font-primary);
+    background-color: transparent;
+    color: var(--color-secondary);
+    border: none;
+    resize: none;
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+.editNote__input:focus {
+    outline: none;
+}
+.editNote__input--title {
+    font-size: var(--fs-lg);
+    margin-bottom: var(--spacing-md);
+
+}
+.editNote__input--description {
+    font-size: var(--fs-base);
+
+}
+
+@media (width < 375px) {
+
+}
+
+@media (375px <= width < 640px) {
+    .editNote {
+        margin: 0 3rem;
+    }
+}
+
+@media (640px <= width < 768px) {
+    .editNote {
+        margin: 0 6rem;
+    }
+}
+
+@media (768px <= width < 1024px) {
+    .editNote {
+        margin: 0 8rem;
+    }
+}
+
+@media (1024px <= width < 1280px) {
+    .editNote {
+        margin: 0 10rem;
+    }
+}
+
+@media (width >= 1280px) {
+    .editNote {
+        margin: 0 12rem;
+    }
+}

@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import EmptyNote from '../components/EmptyNote'
 import '../styles/Note.css'
 import NoteItem from '../components/NoteItem'
+import { Link } from 'react-router-dom'
 
 export default function Note () {
   const mockData = [{ id: '403cda52-11db-4ddd-9e41-c73374ea1242', titulo: 'Hiroshima', description: 'bwoywynudgrgwzivdqfgytvusfsdpazpsguwpcoesmahegykuxskfhtrxbgmzezoaywzvigzklinkunqx', color: '#eded1c' },
@@ -23,14 +24,14 @@ export default function Note () {
         </div>
       </Header>
       <div className='note__container'>
-        {mockData.length === 0
+        {mockData.length !== 0
           ? mockData.map(e => <NoteItem key={e.id} titulo={e.titulo} contenido={e.description} color={e.color} />)
           : <EmptyNote image='src/assets/rafiki.png' text='Create your first note!' />}
 
       </div>
-      <button className='boton'>
+      <Link to='/edit' className='boton'>
         <IoIosAdd />
-      </button>
+      </Link>
     </>
   )
 }
