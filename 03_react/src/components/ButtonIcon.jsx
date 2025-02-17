@@ -9,7 +9,7 @@ export default function ButtonIcon (props) {
     // Aquí hacemos prop.children
     // Cuando se llame a este componente, el componente que esté como hijo
     // Será el que esté dentro del botón
-    <button onClick={props.enlace} className='buttonIcon'>
+    <button onClick={props.onClick} className='buttonIcon'>
       {props.icon}
     </button>
 
