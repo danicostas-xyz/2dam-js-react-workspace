@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-handler-names */
 /* eslint-disable react/prop-types */
 import React from 'react'
 

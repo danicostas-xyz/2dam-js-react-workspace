@@ -1,0 +1,39 @@
+.filterInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 1em;
+    width: 100%;
+    border-radius: 32px;
+    background-color: var(--color-terciary);
+}
+.filterInput__input {
+    width: 100%; 
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-light);
+    background-color: var(--color-terciary);
+    border: none;
+    outline: none;
+    padding: .5em 1em;
+    font-size: var(--fs-base);
+}
+
+.filterInput__button {
+    background-color: transparent;
+    color: var(--color-secondary);
+    padding: 1em;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.filterInput__button svg {
+    width: var(--fs-md);
+    height: var(--fs-md);
+}

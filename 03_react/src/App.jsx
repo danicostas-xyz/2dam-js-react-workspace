@@ -5,6 +5,7 @@ import EmptyNote from './components/EmptyNote'
 import Modal from './components/Modal'
 import EditNote from './pages/EditNote'
 import { BrowserRouter, Router, Routes, Route } from 'react-router-dom'
+import FilterInput from './components/FilterInput'
 
 export default function App () {
   // Aquí puedes hacer todo lo que quieras de js hasta que llegue el return, que es html
@@ -18,9 +19,10 @@ export default function App () {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Note notes={notes} />} />
-          <Route path='/edit' element={<EditNote notes={notes} setNotes={setNotes} />} />
+          <Route path='/edit/:id?' element={<EditNote notes={notes} setNotes={setNotes} />} />
         </Routes>
       </BrowserRouter>
     </div>
+
   )
 }
